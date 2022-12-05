@@ -27,3 +27,10 @@ python main.py data/input.txt
 cd Day4
 python main.py data/input.txt
 ```
+
+## Day 5
+
+```
+cd Day5
+python main.py data/input.txt
+```
