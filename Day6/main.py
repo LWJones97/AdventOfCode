@@ -24,7 +24,6 @@ if __name__ == '__main__':
         raise Exception("Expected usage: main.py <path to input file>")
 
     file_location = sys.argv[1]
-    stream = StreamReader(file_location)
 
     packet_offset = find_first_nondupe_string(4, file_location)
     message_offset = find_first_nondupe_string(14, file_location)
