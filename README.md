@@ -48,3 +48,10 @@ python main.py data/input.txt
 cd Day7
 python main.py data/input.txt
 ```
+
+## Day 8
+
+```
+cd Day8
+python main.py data/input.txt
+```
