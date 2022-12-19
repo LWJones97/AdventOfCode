@@ -18,4 +18,6 @@ class BreadthFirstSearcher:
                         direction.mark_visited()
                         new_path = {"current_square": direction, "length": path["length"] + 1}
                         new_paths.append(new_path)
+            if len(new_paths) == 0:
+                return None
             self.paths = new_paths
